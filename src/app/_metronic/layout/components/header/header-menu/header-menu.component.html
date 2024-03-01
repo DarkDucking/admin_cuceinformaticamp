@@ -1,0 +1,159 @@
+<!-- Dashboard -->
+<div class="menu-item me-lg-1">
+  <a class="menu-link py-3" routerLinkActive="active" routerLink="/dashboard"
+  ><span class="menu-title" translate="MENU.DASHBOARD"></span
+  ></a>
+</div>
+
+<!-- Recursos -->
+<div
+  class="menu-item menu-lg-down-accordion me-lg-1 menu-dropdown"
+  data-kt-menu-trigger="click"
+  data-kt-menu-placement="bottom-start"
+>
+  <span class="menu-link py-3" [ngClass]="calculateMenuItemCssClass('/crafted')">
+    <span class="menu-title">Recursos</span>
+    <span class="menu-arrow d-lg-none"></span>
+  </span>
+  <div
+    class="
+      menu-sub menu-sub-lg-down-accordion menu-sub-lg-dropdown menu-rounded-0
+      py-lg-4
+      w-lg-225px
+    "
+    data-kt-menu-dismiss="true"
+    data-popper-placement="bottom-start"
+  >
+    <!--Cursos-->
+    <div
+      class="menu-item menu-lg-down-accordion me-lg-1"
+      data-kt-menu-trigger="{default:'click', lg: 'hover'}"
+      data-kt-menu-placement="right-start"
+    >
+      <span
+        class="menu-link py-3"
+        [ngClass]="calculateMenuItemCssClass('/crafted/account')"
+      ><span class="menu-icon"><i class="bi fs-3 bi-archive"></i></span
+      ><span class="menu-title" data-link="/crafted/account">Cursos</span
+      ><span class="menu-arrow"></span
+      ></span>
+      <div
+        class="
+          menu-sub
+          menu-sub-lg-down-accordion
+          menu-sub-lg-dropdown
+          menu-rounded-0
+          py-lg-4
+          w-lg-225px
+        "
+        data-kt-menu-dismiss="true"
+      >
+        <div class="menu-item me-lg-1">
+          <a
+            class="menu-link py-3"
+            routerLinkActive="active"
+            routerLink="/cursos/list"
+          ><span class="menu-bullet"
+          ><span class="bullet bullet-dot"></span></span
+          ><span class="menu-title">Listado</span></a
+          >
+        </div>
+        <div class="menu-item me-lg-1">
+          <a
+            class="menu-link py-3"
+            routerLinkActive="active"
+            routerLink="/cursos/registro"
+          ><span class="menu-bullet"
+          ><span class="bullet bullet-dot"></span></span
+          ><span class="menu-title">Registrar</span></a
+          >
+        </div>
+      </div>
+    </div>
+    <!--Accounts-->
+    <div
+      class="menu-item menu-lg-down-accordion me-lg-1"
+      data-kt-menu-trigger="{default:'click', lg: 'hover'}"
+      data-kt-menu-placement="right-start"
+    >
+      <span
+        class="menu-link py-3"
+        [ngClass]="calculateMenuItemCssClass('/crafted/account')"
+      ><span class="menu-icon"><i class="bi fs-3 bi-person"></i></span
+      ><span class="menu-title" data-link="/crafted/account">Usuarios</span
+      ><span class="menu-arrow"></span
+      ></span>
+      <div
+        class="
+          menu-sub
+          menu-sub-lg-down-accordion
+          menu-sub-lg-dropdown
+          menu-rounded-0
+          py-lg-4
+          w-lg-225px
+        "
+        data-kt-menu-dismiss="true"
+      >
+        <div class="menu-item me-lg-1">
+          <a
+            class="menu-link py-3"
+            routerLinkActive="active"
+            routerLink="/users/list"
+          ><span class="menu-bullet"
+          ><span class="bullet bullet-dot"></span></span
+          ><span class="menu-title">Listado</span></a
+          >
+        </div>
+      </div>
+    </div>
+    <!--Categorias-->
+    <div
+      class="menu-item menu-lg-down-accordion me-lg-1"
+      data-kt-menu-trigger="{default:'click', lg: 'hover'}"
+      data-kt-menu-placement="right-start"
+    >
+      <span
+        class="menu-link py-3"
+        [ngClass]="calculateMenuItemCssClass('/crafted/widgets')"
+      ><span class="menu-icon"><i class="bi fs-3 bi-layers"></i></span
+      ><span class="menu-title" data-link="/crafted/widgets">Categorias</span
+      ><span class="menu-arrow"></span
+      ></span>
+      <div
+        class="
+          menu-sub
+          menu-sub-lg-down-accordion
+          menu-sub-lg-dropdown
+          menu-rounded-0
+          py-lg-4
+          w-lg-225px
+        "
+        data-kt-menu-dismiss="true"
+      >
+        <div class="menu-item me-lg-1">
+          <a
+            class="menu-link py-3"
+            routerLinkActive="active"
+            routerLink="/categorias/list"
+          ><span class="menu-bullet"
+          ><span class="bullet bullet-dot"></span></span
+          ><span class="menu-title">Listado</span></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Layout Builder -->
+<div class="menu-item me-lg-1">
+  <a class="menu-link py-3" routerLinkActive="active" routerLink="/builder"
+  ><span class="menu-title">Editor de Interfaz</span></a
+  >
+</div>
+
+<!-- Apps -->
+
+
+<!-- MegaMenu -->
+
